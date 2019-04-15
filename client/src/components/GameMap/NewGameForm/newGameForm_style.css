@@ -1,0 +1,40 @@
+.newGameForm {
+  display: grid;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2000;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.newGameText {
+  border: none;
+  border-bottom: solid 2px white;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+  height: 40px;
+}
+.cancelNewButton {
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  float: left;
+}
+
+.addNewButton {
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  float: right;
+}

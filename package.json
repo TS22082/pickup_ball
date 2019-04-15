@@ -1,0 +1,23 @@
+{
+  "name": "pickup_ball_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TS22082/pickup_ball.git"
+  },
+  "author": "geekcentric_&_alok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TS22082/pickup_ball/issues"
+  },
+  "homepage": "https://github.com/TS22082/pickup_ball#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}

@@ -1,0 +1,44 @@
+.nav {
+  height: 10vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-gap: 0;
+}
+
+.navTitle {
+  margin: 0px;
+  margin-left: 20px;
+  align-self: center;
+  justify-self: start;
+}
+
+.navBtn {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+
+  height: 100%;
+  width: 80px;
+  transition: all 0.5s;
+  text-decoration: none;
+  color: white;
+}
+
+.navBtn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.navLink {
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.navLink:hover {
+  color: black;
+}

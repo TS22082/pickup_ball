@@ -1,0 +1,12 @@
+.pickupGame {
+  color: white;
+  background: orange;
+  height: 30px;
+  width: 30px;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+}
