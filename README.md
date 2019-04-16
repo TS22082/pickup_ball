@@ -1,6 +1,6 @@
 ## Project setup
 
-In the project directory run:
+In the project root directory run:
 
 ### `npm install`
 
@@ -10,7 +10,7 @@ In the project directory run:
 
 ## Start development
 
-In the project directory run:
+In the project root directory run:
 
 ### `npm run dev`
 
@@ -20,3 +20,9 @@ Server is running on port 5000
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+You will need a google geolocation API key to contribute to this app
+
+client/src/secret/google_key.js:
+
+`const GOOGLE_API_KEY = 'your_google_api_key' export default GOOGLE_API_KEY`
