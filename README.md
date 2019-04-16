@@ -21,6 +21,8 @@ Server is running on port 5000
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+## Google API integration
+
 You will need a google geolocation API key to contribute to this app
 
 client/src/secret/google_key.js:
