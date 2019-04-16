@@ -25,5 +25,5 @@ You will need a google geolocation API key to contribute to this app
 
 client/src/secret/google_key.js:
 
-`const GOOGLE_API_KEY = 'your_google_api_key'`
+`const GOOGLE_API_KEY = 'your_google_api_key'` <br>
 `export default GOOGLE_API_KEY`
