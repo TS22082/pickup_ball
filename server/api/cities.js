@@ -21,3 +21,5 @@ router.post('/', (req, res) => {
     return res.json(result)
   })
 })
+
+module.exports = router
